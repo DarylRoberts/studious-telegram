@@ -1,0 +1,53 @@
+Package: datamations
+Type: Package
+Title: Animated Explanations of Data Analysis Pipelines
+Version: 0.0.0.9009
+Authors@R: c(
+    person("Xiaoying", "Pu", email = "xpu@umich.edu", role = c("aut")),
+    person("Sean", "Kross", email = "smk240@gmail.com", role = c("aut")),
+    person("Sharla", "Gelfand", role = c("aut")),
+    person("Giorgi", "Ghviniashvili", role = c("aut")),
+    person("Will", "Bonnell", role = c("aut")),
+    person("Jake", "Hofman", email = "jmh@microsoft.com", role = c("cre", "aut")))
+Description: Generates animations that explain plots and tables from tidyverse pipelines.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    rlang,
+    dplyr,
+    ggplot2,
+    gganimate,
+    magick,
+    tibble,
+    magrittr,
+    purrr (>= 0.3.4.9000),
+    scales,
+    stringr,
+    shiny,
+    vegawidget,
+    forcats,
+    glue,
+    tidyselect,
+    htmlwidgets,
+    reactable,
+    shinyWidgets,
+    shinydashboard,
+    shinyAce,
+    jsonlite,
+    palmerpenguins,
+    golem,
+    styler,
+    shinyjs
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 2.1.0)
+Depends:
+    R (>= 2.10)
+Remotes:
+    tidyverse/purrr
+Config/testthat/edition: 3
+VignetteBuilder: knitr
